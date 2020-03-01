@@ -1,4 +1,4 @@
-package com.gizmiks.processlifecycledemo.activity.viewmodel
+package com.gizmiks.processlifecycledemo.ui.activity.viewmodel
 
 import android.content.Context
 import android.content.Intent
@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import com.gizmiks.processlifecycledemo.R
-import com.gizmiks.processlifecycledemo.activity.BaseActivity
+import com.gizmiks.processlifecycledemo.ui.activity.BaseActivity
 import kotlinx.android.synthetic.main.activity_with_vm.*
 
 class ActivityWithViewModel : BaseActivity() {

@@ -1,9 +1,11 @@
-package com.gizmiks.processlifecycledemo.activity
+package com.gizmiks.processlifecycledemo
 
 import android.content.Intent
 import android.os.Bundle
-import com.gizmiks.processlifecycledemo.R
-import com.gizmiks.processlifecycledemo.activity.viewmodel.ActivityWithViewModel
+import com.gizmiks.processlifecycledemo.ui.activity.ActivitySimpleVariable
+import com.gizmiks.processlifecycledemo.ui.activity.ActivityWithEditText
+import com.gizmiks.processlifecycledemo.ui.activity.BaseActivity
+import com.gizmiks.processlifecycledemo.ui.activity.viewmodel.ActivityWithViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {

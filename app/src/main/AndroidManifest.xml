@@ -13,8 +13,10 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
+        <service android:name=".service.MyService"/>
+
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.gizmiks.processlifecycledemo.MainActivity"
             android:label="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +25,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.ActivitySimpleVariable" />
+        <activity android:name="com.gizmiks.processlifecycledemo.ui.activity.ActivitySimpleVariable" />
 
-        <activity android:name=".activity.ActivityWithEditText" />
+        <activity android:name="com.gizmiks.processlifecycledemo.ui.activity.ActivityWithEditText" />
 
-        <activity android:name=".activity.viewmodel.ActivityWithViewModel" />
+        <activity android:name="com.gizmiks.processlifecycledemo.ui.activity.viewmodel.ActivityWithViewModel" />
+
+        <activity android:name="com.gizmiks.processlifecycledemo.service.ActivityWithService"/>
     </application>
 
 </manifest>

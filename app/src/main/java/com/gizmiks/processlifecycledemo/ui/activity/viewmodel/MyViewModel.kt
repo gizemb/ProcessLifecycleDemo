@@ -1,4 +1,4 @@
-package com.gizmiks.processlifecycledemo.activity.viewmodel
+package com.gizmiks.processlifecycledemo.ui.activity.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.gizmiks.processlifecycledemo.activity
+package com.gizmiks.processlifecycledemo.ui.activity
 
 import android.content.Context
 import android.content.Intent
