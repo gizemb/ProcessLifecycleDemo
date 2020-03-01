@@ -26,6 +26,8 @@
         <activity android:name=".activity.ActivitySimpleVariable" />
 
         <activity android:name=".activity.ActivityWithEditText" />
+
+        <activity android:name=".activity.viewmodel.ActivityWithViewModel" />
     </application>
 
 </manifest>
