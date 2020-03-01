@@ -4,16 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/mainButtonSimpleVariable"
+    <EditText
+        android:id="@+id/edittext_hereIsSomeId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Simple Variable"/>
-
-    <Button
-        android:id="@+id/mainButtonEditTextIdExample"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Widget With Id"/>
+        android:hint="Type something" />
 
 </LinearLayout>
