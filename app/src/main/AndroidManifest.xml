@@ -31,6 +31,8 @@
 
         <activity android:name="com.gizmiks.processlifecycledemo.ui.activity.viewmodel.ActivityWithViewModel" />
 
+        <activity android:name="com.gizmiks.processlifecycledemo.ui.fragment.ActivityWithFragment" />
+
         <activity android:name="com.gizmiks.processlifecycledemo.service.ActivityWithService"/>
     </application>
 

@@ -22,4 +22,10 @@
         android:layout_height="wrap_content"
         android:text="ViewModel"/>
 
+    <Button
+        android:id="@+id/mainButtonFragmentArguments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Arguments"/>
+
 </LinearLayout>

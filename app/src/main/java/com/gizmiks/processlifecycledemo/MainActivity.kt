@@ -6,6 +6,7 @@ import com.gizmiks.processlifecycledemo.ui.activity.ActivitySimpleVariable
 import com.gizmiks.processlifecycledemo.ui.activity.ActivityWithEditText
 import com.gizmiks.processlifecycledemo.ui.activity.BaseActivity
 import com.gizmiks.processlifecycledemo.ui.activity.viewmodel.ActivityWithViewModel
+import com.gizmiks.processlifecycledemo.ui.fragment.ActivityWithFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
@@ -24,6 +25,10 @@ class MainActivity : BaseActivity() {
 
         mainButtonViewModelExample.setOnClickListener {
             startActivity(ActivityWithViewModel.newIntent(this))
+        }
+
+        mainButtonFragmentArguments.setOnClickListener {
+            startActivity(Intent(this, ActivityWithFragment::class.java))
         }
     }
 }
