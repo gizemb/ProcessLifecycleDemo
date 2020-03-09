@@ -13,6 +13,8 @@ class ActivitySimpleVariable : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        x = savedInstanceState?.getInt(BUNDLE_KEY_X) ?: 5
+
         simpleVarTextviewX.text = "Value of x: $x"
         simpleVarButtonIncrement.setOnClickListener {
             x+=1
@@ -20,4 +22,12 @@ class ActivitySimpleVariable : BaseActivity() {
         }
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putInt(BUNDLE_KEY_X, x)
+        super.onSaveInstanceState(outState)
+    }
+
+    companion object {
+        private const val BUNDLE_KEY_X = "bundleKeyX"
+    }
 }

@@ -16,7 +16,7 @@ class ActivityWithFragment : BaseActivity() {
     }
 
     fun openSecondFragment(text: String) = trx {
-        replace(R.id.activityWithFragmentContainerLayout, SecondFragment(text))
+        replace(R.id.activityWithFragmentContainerLayout, SecondFragment.newInstance(text))
     }
 
     private fun trx(func: FragmentTransaction.() -> FragmentTransaction) {
